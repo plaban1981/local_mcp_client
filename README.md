@@ -6,7 +6,8 @@ https://medium.com/the-ai-forum/understanding-the-mcp-workflow-building-a-local-
 <img width="1274" alt="image" src="https://github.com/user-attachments/assets/83f5b821-50a8-453e-8f4f-47ca72074534" />
 
 
-(.venv) C:\Users\PLNAYAK\Documents\local_mcp_server>python server.py --server_type=sse
+(.venv) C:\Users\PLNAYAK\Documents\local_mcp_server>**python server.py --server_type=sse**
+
 🚀Starting server...
 INFO:     Started server process [27936]
 INFO:     Waiting for application startup.
@@ -54,7 +55,8 @@ Executing read_data with query: SELECT * FROM people
 
 
 
-(.venv) C:\Users\PLNAYAK\Documents\local_mcp_server>python langchain_client.py
+(.venv) C:\Users\PLNAYAK\Documents\local_mcp_server>**python langchain_client.py**
+
 Starting Langchain MCP Client...
 Initializing LangchainMCPClient...
 Connecting to MCP server at http://127.0.0.1:8000...
